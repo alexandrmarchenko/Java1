@@ -10,7 +10,7 @@ public class Task4 {
 
     static void fillArray(int[][] arr){
         for (int i = 0; i < arr.length; i++) {
-            arr[i][i] = 1;
+            arr[i][i] = arr[i][arr.length - 1 - i] = 1;
         }
     }
 }
