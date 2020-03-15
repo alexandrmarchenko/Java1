@@ -43,7 +43,5 @@ public class Dog extends Animal implements ISwimmingAnimal {
     @Override
     public boolean canSwim(int distance) {
         return distance < maxSwimDistance;
-        //System.out.printf("Собака %s ", getName());
-        //super.swim(distance);
     }
 }
